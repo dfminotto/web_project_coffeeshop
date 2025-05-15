@@ -1,0 +1,141 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+.page h1, h2, h3 {
+  font-family: "Noto Serif", "Times new Roman", serif;
+}
+
+
+/* ------------------------- HEADER ------------------------- */
+
+.header {
+  background-color: #FFFFFF;
+  background-image: url('../images/background_header.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__content {
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__logo_size {
+  width: 105px;
+  height: 39px;
+}
+
+.nav__link {
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+}
+
+.nav__links_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__title {
+  margin-top: 183px;
+  margin-left: 80px;
+  max-width: 709px;
+
+}
+
+.header__title_text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__title_span {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+}
+
+.header__description {
+  margin-left: 80px;
+  max-width: 683px;
+}
+
+.header__description_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+}
+
+.header__image_size {
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin: auto 80px 40px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header__footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__footer-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
