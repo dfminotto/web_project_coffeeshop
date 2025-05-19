@@ -214,3 +214,131 @@ html {
   list-style-type: none;
   margin-top: 24px;
 }
+
+
+/* ------------------------- RESERVATION -------------------------  */
+
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url('../images/background_reservation.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  padding: 100px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: auto;
+}
+
+.reservation__form {
+  margin: 80px auto 120px;
+  /* margin-top: 80px; */
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin-bottom: 32px;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+}
+
+.form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  height: 60px;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #2f80ed;
+  width: 100%;
+  max-width: 385px;
+  box-sizing: border-box;
+  height: 60px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  margin-bottom: 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__fieldset-inline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.form__checkbox {
+  display: none;
+}
+
+.form__label-checkbox {
+  position: relative;
+  cursor: pointer;
+  padding-left: 32px;
+}
+
+.form__label-checkbox::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.form__checkbox:checked + .form__label-checkbox::before{
+  background-color: blue;
+  border-color: blue;
+}
+
+.form__checkbox:checked + .form__label-checkbox::after {
+  content: "✔";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: white;
+}
+
+.form__label-inline {
+  display: inline-block;
+  margin-bottom: 0;
+}
+

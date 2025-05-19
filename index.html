@@ -57,11 +57,9 @@
         <div class="header__footer">
 
           <div class="header__list">
-            <!-- <ul> -->
               <p class="header__paragraph">Horários:</p>
               <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
               <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
-            <!-- </ul> -->
           </div>
 
           <div>
@@ -112,7 +110,35 @@
 
       </section>
 
+<!-- ---------------------------- RESERVATION ----------------------------  -->
+
       <section class="reservation" id="reservation">
+
+        <h2 class="reservation__title">Reserve uma mesa</h2>
+
+        <form action="" class="reservation__form">
+          <fieldset class="form__fieldset">
+            <label for="form__name" class="form__label">Nome *</label>
+            <input type="text" class="form__input" id="form__name" name="form__name" placeholder="Nome" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="form_num-convidados" class="form__label">Número de convidados *</label>
+            <input type="text" class="form__input" id="form_num-convidados" name="form_num-convidados" placeholder="1-8" required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="form__time" class="form__label">Data e hora *</label>
+            <input type="datetime-local" class="form__input" id="form__time" name="form__time" required>
+          </fieldset>
+          <fieldset class="form__fieldset" class="form__label">
+            <label for="form__email" class="form__label">Seu e-mail *</label>
+            <input type="email" class="form__input" id="form__email" name="form__email" placeholder="email@email.com" required>
+          </fieldset>
+          <button type="submit" class="form__button">Reservar uma mesa</button>
+          <fieldset class="form__fieldset form__fieldset-inline">
+            <input type="checkbox" class="form__checkbox" id="form__checkbox" name="form__checkbox">
+            <label for="form__checkbox" class="form__label form__label-checkbox">Eu concordo com os termos de uso</label>
+          </fieldset>
+         </form>
 
       </section>
 
