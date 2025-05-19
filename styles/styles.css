@@ -225,21 +225,20 @@ html {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding: 100px 0 120px;
 }
 
 .reservation__title {
-  padding: 100px 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: auto;
+  margin: 0 auto 80px;
 }
 
 .reservation__form {
-  margin: 80px auto 120px;
-  /* margin-top: 80px; */
+  margin: 0 auto;
   max-width: 385px;
 }
 
@@ -328,7 +327,7 @@ html {
 }
 
 .form__checkbox:checked + .form__label-checkbox::after {
-  content: "✔";
+  content: url('../images/check.svg');
   position: absolute;
   left: 4px;
   top: 50%;
