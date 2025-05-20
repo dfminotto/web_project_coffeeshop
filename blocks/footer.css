@@ -1,0 +1,87 @@
+.footer {
+  position: relative;
+  padding: 60px 80px;
+  background-color: #0A2850;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  background-image: url('../images/logo_coffeeshop_light.svg');
+  width: 105px;
+  height: 39px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.footer__circle {
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  width: 340px;
+  height: 340px;
+  background-color: #2F80ED;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-heading {
+ font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+   font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
